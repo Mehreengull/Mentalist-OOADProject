@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CDD98918-12C1-4024-BD07-4B6D7AB162D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication13</RootNamespace>
+    <AssemblyName>WindowsFormsApplication13</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admincontrols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admincontrols.Designer.cs">
+      <DependentUpon>admincontrols.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminlogin.Designer.cs">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminreg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminreg.Designer.cs">
+      <DependentUpon>adminreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="end.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="end.Designer.cs">
+      <DependentUpon>end.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eq non verba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eq non verba.Designer.cs">
+      <DependentUpon>Eq non verba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eqselection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eqselection.Designer.cs">
+      <DependentUpon>eqselection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eqverbal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eqverbal.Designer.cs">
+      <DependentUpon>eqverbal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="first.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="first.Designer.cs">
+      <DependentUpon>first.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstructionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructionForm.Designer.cs">
+      <DependentUpon>InstructionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iqnonverbal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iqnonverbal.Designer.cs">
+      <DependentUpon>iqnonverbal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\catagory selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\catagory selection.Designer.cs">
+      <DependentUpon>catagory selection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="resulteqverbal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resulteqverbal.Designer.cs">
+      <DependentUpon>resulteqverbal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="resulteqnon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resulteqnon.Designer.cs">
+      <DependentUpon>resulteqnon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="resultiqnon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resultiqnon.Designer.cs">
+      <DependentUpon>resultiqnon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="resultiqverbal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resultiqverbal.Designer.cs">
+      <DependentUpon>resultiqverbal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="start.Designer.cs">
+      <DependentUpon>start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test type selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test type selection.Designer.cs">
+      <DependentUpon>test type selection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testQuestion.Designer.cs">
+      <DependentUpon>testQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\server\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admincontrols.resx">
+      <DependentUpon>admincontrols.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminlogin.resx">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminreg.resx">
+      <DependentUpon>adminreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="end.resx">
+      <DependentUpon>end.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eq non verba.resx">
+      <DependentUpon>Eq non verba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eqselection.resx">
+      <DependentUpon>eqselection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eqverbal.resx">
+      <DependentUpon>eqverbal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="first.resx">
+      <DependentUpon>first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstructionForm.resx">
+      <DependentUpon>InstructionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iqnonverbal.resx">
+      <DependentUpon>iqnonverbal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\catagory selection.resx">
+      <DependentUpon>catagory selection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resulteqverbal.resx">
+      <DependentUpon>resulteqverbal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resulteqnon.resx">
+      <DependentUpon>resulteqnon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resultiqnon.resx">
+      <DependentUpon>resultiqnon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resultiqverbal.resx">
+      <DependentUpon>resultiqverbal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test type selection.resx">
+      <DependentUpon>test type selection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testQuestion.resx">
+      <DependentUpon>testQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\server\CompositeType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\server\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\server\Service1.wsdl" />
+    <None Include="Web References\server\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\server\Service10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\server\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:7627/Service1.svc">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\server\</RelPath>
+      <UpdateFromURL>http://localhost:7627/Service1.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WindowsFormsApplication13_server_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\server\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testttt.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NNJNKMK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renae7.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x30015.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x30014.jpg" />
+    <None Include="Resources\iq.png" />
+    <None Include="Resources\smarter-than1.jpg" />
+    <None Include="Resources\mexcalamity_spawn___mr_average_by_percyfan94.jpg" />
+    <None Include="Resources\Jyly-6-amygdala-hijacking.jpg" />
+    <None Include="Resources\thinking-cap.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x30013.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x30012.jpg" />
+    <None Include="Resources\samuel-1233415_960_720.jpg" />
+    <None Include="Resources\v4-728px-Gain-Control-of-Your-Emotions-Step-16.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x30011.jpg" />
+    <None Include="Resources\renae6.jpg" />
+    <None Include="Resources\login-button-png-171.png" />
+    <None Include="Resources\IQ_EQ_Personality-291x30010.jpg" />
+    <None Include="Resources\regba1.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x3009.jpg" />
+    <None Include="Resources\renae5.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x3008.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x3007.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x3006.jpg" />
+    <None Include="Resources\renae4.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x3005.jpg" />
+    <None Include="Resources\timer1.png" />
+    <None Include="Resources\IQ_EQ_Personality-291x3004.jpg" />
+    <None Include="Resources\timer.png" />
+    <None Include="Resources\renae3.jpg" />
+    <None Include="Resources\renae2.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x3003.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x3002.jpg" />
+    <None Include="Resources\renae1.jpg" />
+    <None Include="Resources\login-button-png-17.png" />
+    <None Include="Resources\IQ_EQ_Personality-291x3001.jpg" />
+    <None Include="Resources\IQ_EQ_Personality-291x300.jpg" />
+    <None Include="Resources\regba.jpg" />
+    <None Include="Resources\registration_page.png" />
+    <None Include="Resources\regonline.gif" />
+    <None Include="Resources\renae.jpg" />
+    <None Include="Resources\wow.png" />
+    <None Include="Resources\TextFile1.txt" />
+    <None Include="Resources\21.jpg" />
+    <None Include="Resources\31.jpg" />
+    <None Include="Resources\41.jpg" />
+    <None Include="Resources\51.jpg" />
+    <None Include="Resources\61.jpg" />
+    <None Include="Resources\71.jpg" />
+    <None Include="Resources\81.jpg" />
+    <None Include="Resources\91.jpg" />
+    <None Include="Resources\e1.jpg" />
+    <None Include="Resources\e2.jpg" />
+    <None Include="Resources\e3.jpg" />
+    <None Include="Resources\e4.jpg" />
+    <None Include="Resources\e5.jpg" />
+    <None Include="Resources\e6.jpg" />
+    <None Include="Resources\e7.jpg" />
+    <None Include="Resources\e8.jpg" />
+    <None Include="Resources\e9.jpg" />
+    <None Include="Resources\e10.jpg" />
+    <None Include="Resources\e11.jpg" />
+    <None Include="Resources\e12.jpg" />
+    <None Include="Resources\e13.jpg" />
+    <None Include="Resources\e14.jpg" />
+    <None Include="Resources\e15.jpg" />
+    <None Include="Resources\e16.jpg" />
+    <None Include="Resources\e17.jpg" />
+    <None Include="Resources\e18.jpg" />
+    <None Include="Resources\e19.jpg" />
+    <None Include="Resources\e20.jpg" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\4.jpg" />
+    <None Include="Resources\5.jpg" />
+    <None Include="Resources\6.jpg" />
+    <None Include="Resources\7.jpg" />
+    <None Include="Resources\8.jpg" />
+    <None Include="Resources\9.jpg" />
+    <None Include="Resources\10.jpg" />
+    <None Include="Resources\11.jpg" />
+    <None Include="Resources\12.jpg" />
+    <None Include="Resources\13.jpg" />
+    <None Include="Resources\14.jpg" />
+    <None Include="Resources\15.png" />
+    <None Include="Resources\16.jpg" />
+    <None Include="Resources\18.jpg" />
+    <None Include="Resources\19.jpg" />
+    <None Include="Resources\EQ.png" />
+    <None Include="Resources\EQ-vs-IQ.jpg" />
+    <None Include="Resources\Confusion.jpg" />
+    <None Include="Resources\Confusion1.jpg" />
+    <None Include="Resources\A_Cartoon_Young_Girl_Screaming_and_Scaring_Her_Cat_As_He_Jumps_High_In_the_Air_Royalty_Free_Clipart_Picture_101008-042283-267053.jpg" />
+    <None Include="Resources\depositphotos_138496362-stock-illustration-customer-and-satisfaction.jpg" />
+    <None Include="Resources\emoticon-1628080_960_720.png" />
+    <None Include="Resources\240_F_166973432_javz4rryzDllayjfDhjXPuniehmeU8S3.jpg" />
+    <None Include="Resources\Control-Negative-Emotions-The-Great-Everything.jpeg" />
+    <None Include="Resources\chemicals1.gif" />
+    <None Include="Resources\download.png" />
+    <Content Include="Resources\Eq.txt" />
+    <None Include="Resources\FlechaDerecha.png" />
+    <None Include="Resources\images %281%29.png" />
+    <None Include="Resources\FlechaDerecha1.png" />
+    <None Include="Resources\Fotolia_75189389_Subscription_Monthly_M.jpg" />
+    <None Include="Resources\FlechaDerecha2.png" />
+    <None Include="Resources\FlechaDerecha3.png" />
+    <None Include="Resources\i2.png" />
+    <None Include="Resources\FlechaDerecha4.png" />
+    <None Include="Resources\i21.png" />
+    <None Include="Resources\FlechaDerecha5.png" />
+    <None Include="Resources\FlechaDerecha6.png" />
+    <None Include="Resources\heart-exercise.jpg" />
+    <None Include="Resources\FlechaDerecha7.png" />
+    <None Include="Resources\heart-exercise1.jpg" />
+    <None Include="Resources\fine.gif" />
+    <None Include="Resources\girl-showing-her-test-paper-result-kid-40276628.jpg" />
+    <None Include="Resources\girl-showing-her-test-paper-result-kid-402766281.jpg" />
+    <None Include="Resources\girl-showing-her-test-paper-result-kid-402766282.jpg" />
+    <None Include="Resources\girl-showing-her-test-paper-result-kid-402766283.jpg" />
+    <None Include="Resources\giftedness.gif" />
+    <None Include="Resources\girl-showing-her-test-paper-result-kid-402766284.jpg" />
+    <None Include="Resources\girl-showing-her-test-paper-result-kid-402766285.jpg" />
+    <Content Include="Resources\IQ NON VERBAL.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,46 @@
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\bin\myservice.dll.config
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\bin\myservice.dll
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\bin\myservice.pdb
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\obj\Debug\myservice.dll
+c:\users\hussaini computers\documents\visual studio 2015\Projects\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\bin\myservice.dll.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\bin\myservice.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\bin\myservice.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\bin\myservice.dll.config
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\bin\myservice.dll
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\bin\myservice.pdb
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\obj\Debug\myservice.dll
+C:\Users\Bint E Adam\Desktop\OOAD\ooad\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\myservice.dll
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\myservice.pdb
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\mscorlib.dll
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\normidna.nlp
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\normnfc.nlp
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\normnfd.nlp
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\normnfkc.nlp
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\bin\normnfkd.nlp
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\obj\Debug\myservice.dll
+C:\Users\Tehreem Shazadi\Desktop\New folder\ooad\myservice\myservice\obj\Debug\myservice.pdb
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\myservice.dll
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\myservice.pdb
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\mscorlib.dll
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\normidna.nlp
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\normnfc.nlp
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\normnfd.nlp
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\normnfkc.nlp
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\bin\normnfkd.nlp
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\obj\Debug\myservice.dll
+G:\Mehreen\semester4\OOAD\project\ooad\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\ok1\Desktop\finalproject\myservice\myservice\obj\Debug\myservice.csprojResolveAssemblyReference.cache
+C:\Users\ok1\Desktop\finalproject\myservice\myservice\obj\Debug\myservice.dll
+C:\Users\ok1\Desktop\finalproject\myservice\myservice\obj\Debug\myservice.pdb
+C:\Users\ok1\Desktop\finalproject\myservice\myservice\bin\myservice.dll.config
+C:\Users\ok1\Desktop\finalproject\myservice\myservice\bin\myservice.dll
+C:\Users\ok1\Desktop\finalproject\myservice\myservice\bin\myservice.pdb
